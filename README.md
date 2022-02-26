@@ -4,7 +4,7 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is a starting point for a Flutter application. For step 1, I have used firebase auth and firebase core packages.
 
 A few resources to get you started if this is your first Flutter project:
 
