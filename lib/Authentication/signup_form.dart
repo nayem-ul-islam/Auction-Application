@@ -181,7 +181,9 @@ class _SignupFormState extends State<SignupForm> {
                           SnackBar(
                             content: Text(
                               result,
-                              style: const TextStyle(fontSize: 16),
+                              style: const TextStyle(
+                                fontSize: 16.0,
+                              ),
                             ),
                           ),
                         );

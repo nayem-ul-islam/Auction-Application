@@ -18,8 +18,10 @@ class Signup extends StatelessWidget {
           // logo
           Column(
             children: const [
-              FlutterLogo(
-                size: 55.0,
+              Image(
+                image: AssetImage(
+                  'assets/images/logo.png',
+                ),
               ),
             ],
           ),
@@ -75,27 +77,3 @@ class Signup extends StatelessWidget {
     );
   }
 }
-
-//   Container buildLogo() {
-//     return Container(
-//       height: 80.0,
-//       width: 80.0,
-//       decoration: const BoxDecoration(
-//           borderRadius: BorderRadius.all(
-//             Radius.circular(
-//               10.0,
-//             ),
-//           ),
-//           color: Colors.blue),
-//       child: const Center(
-//         child: Text(
-//           "T",
-//           style: TextStyle(
-//             color: Colors.white,
-//             fontSize: 60.0,
-//           ),
-//         ),
-//       ),
-//     );
-//   }
-// }
